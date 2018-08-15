@@ -2,7 +2,7 @@ import os
 from xml.etree import ElementTree
 
 file_name = 'inputProjeto.xml'
-full_file = os.path.abspath(os.path.join('data', file_name ))
+full_file = os.path.abspath(os.path.join('data', file_name))
 tree = ElementTree.parse(file_name)
 root = tree.getroot()
 
@@ -34,9 +34,9 @@ def polaridade(polar):
 
 def selecionarPolaridades():
     polar = []
-    for i in range(0,len(root)): #For iterando a variável i de  0 até o tamanho do root
+    for i in range(0, len(root)): #For iterando a variável i de  0 até o tamanho do root
         j = 0
-        while j < (len(root[i][0])): #While para verificar as 'sentece'
+        while j < (len(root[i][0])): #While para verificar as 'sentence'
             vPolaridade = []
             for k in range(0, len(root[i][0][j][1])):
                 vPolaridade.append(root[i][0][j][1][k].get('polarity'))

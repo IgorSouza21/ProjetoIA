@@ -30,7 +30,7 @@ def resultados(matriz):
         precisaoNEG = 0
 
     try:
-        precisaoNEU = matriz[2][2] / (matriz)[2][2] + matriz[0][2] + matriz[1][2]
+        precisaoNEU = matriz[2][2] / (matriz[2][2] + matriz[0][2] + matriz[1][2])
     except ArithmeticError:
         precisaoNEU = 0
 
@@ -64,18 +64,20 @@ def resultados(matriz):
     except ArithmeticError:
         f_measureNEU = 0
 
-    precisaoMedia = (precisaoPOS + precisaoNEG + precisaoNEU) / 3
-    recallMedia = (recallPOS + recallNEG + recallNEU) / 3
     f_measure = (f_measurePOS + f_measureNEG + f_measureNEU) / 3
 
     p = []
     p.append('acuracia: ' + str(acuracia * 100) + '%\n')
     p.append('erro: ' + str(erro * 100) + '%\n')
-    p.append('precisao media: ' + str(precisaoMedia * 100) + '%\n')
-    p.append('recall medio: ' + str(recallMedia * 100) + '%\n')
+    p.append('precisao POS: ' + str(precisaoPOS * 100) + '%\n')
+    p.append('precisao NEG: ' + str(precisaoNEG * 100) + '%\n')
+    p.append('precisao NEUTRO: ' + str(precisaoNEU * 100) + '%\n')
+    p.append('recall POS: ' + str(recallPOS * 100) + '%\n')
+    p.append('recall NEG: ' + str(recallNEG * 100) + '%\n')
+    p.append('recall NEUTRO: ' + str(recallNEU * 100) + '%\n')
     p.append('f-measure: ' + str(f_measure * 100) + '%\n')
 
-    return p, [acuracia, erro, precisaoMedia, recallMedia, f_measure]
+    return p, [acuracia, erro, precisaoPOS, precisaoNEG, precisaoNEU, recallPOS, recallNEG, recallNEU, f_measure]
 
 
 def printMatriz(matriz):

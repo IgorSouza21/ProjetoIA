@@ -164,7 +164,7 @@ def holdout(textos, polaridades):
     return treino, teste, quantTreino
 
 
-def crossValidation(k, textos, polaridades, classes, biblioteca, score, normalizar=False):
+def crossValidationV(k, textos, polaridades, classes, biblioteca, score, normalizar=False):
     tudo = []
     for i in range(len(textos)):
         tudo.append(pp.document(textos[i], polaridades[i]))
@@ -175,13 +175,18 @@ def crossValidation(k, textos, polaridades, classes, biblioteca, score, normaliz
     resultados = []
 
     for i in range(k):
+        print('fold -> ' + str(i+1) + '/' + str(k))
         logprior, loglikelihood = trainNaiveBayes(BOW[0:fold*i]+BOW[fold*(i+1):len(BOW)], classes)
-        resultados.append(teste(logprior, loglikelihood, classes, BOW[fold*k:fold*(k+1)]))
+        resultados.append(teste(logprior, loglikelihood, classes, BOW[fold*i:fold*(i+1)]))
 
     acuracia = []
     erro = []
-    precisao = []
-    recall = []
+    precisaoPOS = []
+    precisaoNEG = []
+    precisaoNEU = []
+    recallPOS = []
+    recallNEG = []
+    recallNEU = []
     f_measure = []
     for res in resultados:
         for j in range(len(res)):
@@ -190,19 +195,28 @@ def crossValidation(k, textos, polaridades, classes, biblioteca, score, normaliz
             elif j == 1:
                 erro.append(res[j])
             elif j == 2:
-                precisao.append(res[j])
+                precisaoPOS.append(res[j])
             elif j == 3:
-                recall.append(res[j])
+                precisaoNEG.append(res[j])
+            elif j == 4:
+                precisaoNEU.append(res[j])
+            elif j == 5:
+                recallPOS.append(res[j])
+            elif j == 6:
+                recallNEG.append(res[j])
+            elif j == 7:
+                recallNEU.append(res[j])
             else:
                 f_measure.append(res[j])
 
-    return [sum(acuracia)/k, sum(erro)/k. sum(precisao)/k. sum(recall)/k, sum(f_measure)/k]
+    return [sum(acuracia)/k, sum(erro)/k, sum(precisaoPOS)/k, sum(precisaoNEG)/k,
+            sum(precisaoNEU) / k, sum(recallPOS)/k, sum(recallNEG)/k, sum(recallNEU)/k, sum(f_measure)/k]
 
 
-def teste(logprior, loglikelihood, classes, docs, elevar):
+def teste(logprior, loglikelihood, classes, docs):
     matriz = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
     for testdoc in docs:
-        previsao = testeNaiveBayes(testdoc, logprior, loglikelihood, classes, elevar)
+        previsao = testeNaiveBayes(testdoc, logprior, loglikelihood, classes)
         matrizConfusao(testdoc[-1], previsao, matriz)
 
     p2, results = resultados(matriz)

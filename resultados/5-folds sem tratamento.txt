@@ -1,0 +1,11 @@
+acuracia: 69.91071428571428%
+erro: 30.08928571428572%
+precisao POS: 70.67491741012842%
+precisao NEG: 8.0%
+precisao NEUTRO: 0.0%
+recall POS: 98.34953640718197%
+recall NEG: 0.6557377049180327%
+recall NEUTRO: 0.0%
+f-measure: 27.814692496050895%
+
+tempo de execucao: 13.760624444444446

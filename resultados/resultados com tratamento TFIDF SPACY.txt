@@ -1,0 +1,15 @@
+	MATRIZ DE CONFUSAO
+		pos	| neg | neutro
+pos		265	| 0	  |	0
+neg		58	| 24	  |	0
+neutro	25	| 2	  |	0
+
+acuracia: 77.27272727272727%
+erro: 22.72727272727273%
+precisao POS: 76.14942528735632%
+precisao NEG: 92.3076923076923%
+precisao NEUTRO: 0%
+recall POS: 99.25093632958801%
+recall NEG: 22.429906542056074%
+recall NEUTRO: 0.0%
+f-measure: 40.75636245084255%

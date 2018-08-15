@@ -1,6 +1,8 @@
 import os
 import lerXmlInputProjeto
 from TratamentosNaiveBayes import *
+from crossNaiveBayes import *
+import timeit
 
 
 def main():
@@ -14,7 +16,8 @@ def main():
         if not os.path.exists(pasta):
             os.mkdir(pasta)
 
-    testesHoldout(textos, polaridades, classes, biblioteca1, biblioteca2)
+    # testesHoldout(textos, polaridades, classes, biblioteca1, biblioteca2)
+    testeK_folds(5, textos, polaridades, classes, biblioteca1, biblioteca2)
 
 
 def testesHoldout(textos, polaridades, classes, biblioteca1, biblioteca2):
@@ -44,15 +47,32 @@ def testesHoldout(textos, polaridades, classes, biblioteca1, biblioteca2):
     tratTFIDFNaoNormalizadoJpretext(classes)
 
 
-def testeK_folds(k, textos, polaridades, classes):
-    r = crossValidation(k, textos, polaridades, classes, Type.NLTK, Type.BIN)
-    s = 'acuracia: '
-    arq = open(pasta + 'resultados com tratamento binário NLTK.txt', 'w')
-    arq.writelines(s1)
-    arq.write('\n')
-    arq.writelines(s2)
+def testeK_folds(k, textos, polaridades, classes, biblioteca1, biblioteca2):
+    # inicio = timeit.default_timer()
+    # arq = crossBinNLTK(k, textos, polaridades, classes, biblioteca1)
+    # fim = timeit.default_timer()
+    # arq.write('\ntempo de execucao: ' + str(fim - inicio))
+    # arq.close()
+    #
+    # inicio = timeit.default_timer()
+    # arq = crossTFnormalizadoJpretext(k, classes)
+    # fim = timeit.default_timer()
+    # arq.write('\ntempo de execucao: ' + str(fim - inicio))
+    # arq.close()
+    #
+    # inicio = timeit.default_timer()
+    # arq = crossBinSpacy(k, textos, polaridades, classes, biblioteca2)
+    # fim = timeit.default_timer()
+    # arq.write('\ntempo de execucao: ' + str(fim - inicio))
+    # arq.close()
+
+    inicio = timeit.default_timer()
+    arq = crossSemTratamento(k, textos, polaridades, classes)
+    fim = timeit.default_timer()
+    arq.write('\ntempo de execucao: ' + str(fim - inicio))
     arq.close()
 
 
 main()
+
 

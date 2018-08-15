@@ -1,6 +1,6 @@
 import math
 import random
-from naiveBayesV import holdout
+from naiveBayesV import holdout, pp
 import avaliacao
 
 
@@ -88,6 +88,58 @@ def naiveBayes(textos, polaridades, classes):
     logprior, loglikelihood, V = trainNaiveBayes(treino, classes)
     matriz = matrizConfusao(teste, logprior, loglikelihood, classes, V)
     s1 = avaliacao.printMatriz(matriz)
-    s2 = avaliacao.resultados(matriz)
+    s2, p = avaliacao.resultados(matriz)
 
     return s1, s2
+
+
+def crossValidation(k, textos, polaridades, classes):
+    tudo = []
+    for i in range(len(textos)):
+        tudo.append(pp.document(textos[i], polaridades[i]))
+
+    random.shuffle(tudo)
+
+    fold = math.floor(len(tudo)/k)
+    resultados = []
+
+    for i in range(k):
+        print('fold -> ' + str(i+1) + '/' + str(k))
+        treino = tudo[0:fold * i][0:fold * i] + tudo[fold * (i + 1):len(tudo)][fold * (i + 1):len(tudo)]
+        logprior, loglikelihood, V = trainNaiveBayes(treino, classes)
+        matriz = matrizConfusao(tudo[fold * i:fold * (i + 1)], logprior, loglikelihood, classes, V)
+        descarta, lista = avaliacao.resultados(matriz)
+        resultados.append(lista)
+
+    acuracia = []
+    erro = []
+    precisaoPOS = []
+    precisaoNEG = []
+    precisaoNEU = []
+    recallPOS = []
+    recallNEG = []
+    recallNEU = []
+    f_measure = []
+    for res in resultados:
+        for j in range(len(res)):
+            if j == 0:
+                acuracia.append(res[j])
+            elif j == 1:
+                erro.append(res[j])
+            elif j == 2:
+                precisaoPOS.append(res[j])
+            elif j == 3:
+                precisaoNEG.append(res[j])
+            elif j == 4:
+                precisaoNEU.append(res[j])
+            elif j == 5:
+                recallPOS.append(res[j])
+            elif j == 6:
+                recallNEG.append(res[j])
+            elif j == 7:
+                recallNEU.append(res[j])
+            else:
+                f_measure.append(res[j])
+
+    return [sum(acuracia)/k, sum(erro)/k, sum(precisaoPOS)/k, sum(precisaoNEG)/k,
+            sum(precisaoNEU) / k, sum(recallPOS)/k, sum(recallNEG)/k, sum(recallNEU)/k, sum(f_measure)/k]
