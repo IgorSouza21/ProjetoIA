@@ -32,19 +32,17 @@ def trainNaiveBayes(D, C):
     return logprior, loglikelihood
 
 
-def testeNaiveBayes(testedoc, logprior, loglikelihood, C, elevar):
+def testeNaiveBayes(testedoc, logprior, loglikelihood, C):
     sum = {}
     for c in C:
         sum[c] = logprior[c]
         for i in range(len(testedoc)-1):
             if testedoc[i] != 0:
-                if elevar:
-                    try:
-                        #loglikelihood[c][i] = math.log2((math.pow(2, loglikelihood[c][i])) ** testedoc[i])
-                        loglikelihood[c][i] = loglikelihood[c][i] * testedoc[i]
-                    except ValueError:
-                        loglikelihood[c][i] = 0
-                sum[c] = sum[c] + loglikelihood[c][i]
+                try:
+                    likelihood = loglikelihood[c][i] * testedoc[i]
+                except ValueError:
+                    likelihood = 0
+                sum[c] = sum[c] + likelihood
     m = max(sum.values())
     for key in sum:
         if m is sum[key]:
@@ -118,7 +116,7 @@ def matrizBOW(docs, biblioteca, score, normalizar):
     return ss
 
 
-def naiveBayesV(textos, polaridades, classes, biblioteca, score, normalizar=False, elevar=False):
+def naiveBayesV(textos, polaridades, classes, biblioteca, score, normalizar=False):
     treino, teste, quantTreino = holdout(textos, polaridades)
     random.shuffle(treino)
     BOW = matrizBOW(treino + teste, biblioteca, score, normalizar)
@@ -126,7 +124,7 @@ def naiveBayesV(textos, polaridades, classes, biblioteca, score, normalizar=Fals
 
     logprior, loglikelihood = trainNaiveBayes(BOW[:quantTreino], classes)
     for i in range(quantTreino, len(BOW)):
-        previsao = testeNaiveBayes(BOW[i], logprior, loglikelihood, classes, elevar)
+        previsao = testeNaiveBayes(BOW[i], logprior, loglikelihood, classes)
         matrizConfusao(BOW[i][-1], previsao, matriz)
     p = printMatriz(matriz)
     p2, x = resultados(matriz)
@@ -166,7 +164,7 @@ def holdout(textos, polaridades):
     return treino, teste, quantTreino
 
 
-def crossValidation(k, textos, polaridades, classes, biblioteca, score, normalizar=False, elevar=False):
+def crossValidation(k, textos, polaridades, classes, biblioteca, score, normalizar=False):
     tudo = []
     for i in range(len(textos)):
         tudo.append(pp.document(textos[i], polaridades[i]))
@@ -178,7 +176,7 @@ def crossValidation(k, textos, polaridades, classes, biblioteca, score, normaliz
 
     for i in range(k):
         logprior, loglikelihood = trainNaiveBayes(BOW[0:fold*i]+BOW[fold*(i+1):len(BOW)], classes)
-        resultados.append(teste(logprior, loglikelihood, classes, BOW[fold*k:fold*(k+1)], elevar))
+        resultados.append(teste(logprior, loglikelihood, classes, BOW[fold*k:fold*(k+1)]))
 
     acuracia = []
     erro = []
