@@ -1,0 +1,266 @@
+from jpretext import naiveBayesJpretext
+from naiveBayes import naiveBayes
+from naiveBayesV import *
+
+pasta = ''
+
+
+def semTratamento(textos, polaridades, classes):
+    s1, s2 = naiveBayes(textos, polaridades, classes)
+    arq = open(pasta + 'resultados sem tratamento.txt', 'w')
+    arq.writelines(s1)
+    arq.write('\n')
+    arq.writelines(s2)
+    arq.close()
+
+
+def tratBinNLTK(textos, polaridades, classes, biblioteca1):
+    s1, s2 = naiveBayesV(textos, polaridades, classes, biblioteca1, Type.BIN)
+    arq = open(pasta + 'resultados com tratamento binário NLTK.txt', 'w')
+    arq.writelines(s1)
+    arq.write('\n')
+    arq.writelines(s2)
+    arq.close()
+
+
+def tratTFNLTK(textos, polaridades, classes, biblioteca1):
+    s1, s2 = naiveBayesV(textos, polaridades, classes, biblioteca1, Type.TF)
+    arq = open(pasta + 'resultados com tratamento TF NLTK.txt', 'w')
+    arq.writelines(s1)
+    arq.write('\n')
+    arq.writelines(s2)
+    arq.close()
+
+
+def tratTFnormalizadoNLTK(textos, polaridades, classes, biblioteca1):
+    s1, s2 = naiveBayesV(textos, polaridades, classes, biblioteca1, Type.TF, True)
+    arq = open(pasta + 'resultados com tratamento TF normalizado NLTK.txt', 'w')
+    arq.writelines(s1)
+    arq.write('\n')
+    arq.writelines(s2)
+    arq.close()
+
+
+def tratTFIDFNLTK(textos, polaridades, classes, biblioteca1):
+    s1, s2 = naiveBayesV(textos, polaridades, classes, biblioteca1, Type.TFIDF)
+    arq = open(pasta + 'resultados com tratamento TFIDF NLTK.txt', 'w')
+    arq.writelines(s1)
+    arq.write('\n')
+    arq.writelines(s2)
+    arq.close()
+
+
+def tratTFIDFnormalizadoNLTK(textos, polaridades, classes, biblioteca1):
+    s1, s2 = naiveBayesV(textos, polaridades, classes, biblioteca1, Type.TFIDF, True)
+    arq = open(pasta + 'resultados com tratamento TFIDF normalizado NLTK.txt', 'w')
+    arq.writelines(s1)
+    arq.write('\n')
+    arq.writelines(s2)
+    arq.close()
+
+
+def tratBinSpacy(textos, polaridades, classes, biblioteca2):
+    s1, s2 = naiveBayesV(textos, polaridades, classes, biblioteca2, Type.BIN)
+    arq = open(pasta + 'resultados com tratamento binário SPACY.txt', 'w')
+    arq.writelines(s1)
+    arq.write('\n')
+    arq.writelines(s2)
+    arq.close()
+
+
+def tratTFSpacy(textos, polaridades, classes, biblioteca2):
+    s1, s2 = naiveBayesV(textos, polaridades, classes, biblioteca2, Type.TF)
+    arq = open(pasta + 'resultados com tratamento TF SPACY.txt', 'w')
+    arq.writelines(s1)
+    arq.write('\n')
+    arq.writelines(s2)
+    arq.close()
+
+
+def tratTFNormalizadoSpacy(textos, polaridades, classes, biblioteca2):
+    s1, s2 = naiveBayesV(textos, polaridades, classes, biblioteca2, Type.TF, True)
+    arq = open(pasta + 'resultados com tratamento TF normalizado SPACY.txt', 'w')
+    arq.writelines(s1)
+    arq.write('\n')
+    arq.writelines(s2)
+    arq.close()
+
+
+def tratTFIDFSpacy(textos, polaridades, classes, biblioteca2):
+    s1, s2 = naiveBayesV(textos, polaridades, classes, biblioteca2, Type.TFIDF)
+    arq = open(pasta + 'resultados com tratamento TFIDF SPACY.txt', 'w')
+    arq.writelines(s1)
+    arq.write('\n')
+    arq.writelines(s2)
+    arq.close()
+
+
+def tratTFIDFNormalizadoSpacy(textos, polaridades, classes, biblioteca2):
+    s1, s2 = naiveBayesV(textos, polaridades, classes, biblioteca2, Type.TFIDF, True)
+    arq = open(pasta + 'resultados com tratamento TFIDF normalizado SPACY.txt', 'w')
+    arq.writelines(s1)
+    arq.write('\n')
+    arq.writelines(s2)
+    arq.close()
+
+
+def tratBinMultNLTK(textos, polaridades, classes, biblioteca1):
+    s1, s2 = naiveBayesV(textos, polaridades, classes, biblioteca1, Type.BIN, elevar=True)
+    arq = open(pasta + 'resultados com tratamento binário NLTK multiplicando ao valor da palavra no teste.txt', 'w')
+    arq.writelines(s1)
+    arq.write('\n')
+    arq.writelines(s2)
+    arq.close()
+
+
+def tratTFMultNLTK(textos, polaridades, classes, biblioteca1):
+    s1, s2 = naiveBayesV(textos, polaridades, classes, biblioteca1, Type.TF, elevar=True)
+    arq = open(pasta + 'resultados com tratamento TF NLTK  multiplicando ao valor da palavra no teste.txt', 'w')
+    arq.writelines(s1)
+    arq.write('\n')
+    arq.writelines(s2)
+    arq.close()
+
+
+def tratTFnormalizadoMultNLTK(textos, polaridades, classes, biblioteca1):
+    s1, s2 = naiveBayesV(textos, polaridades, classes, biblioteca1, Type.TF, True, True)
+    arq = open(pasta + 'resultados com tratamento TF normalizado NLTK multiplicando ao valor da palavra no teste.txt', 'w')
+    arq.writelines(s1)
+    arq.write('\n')
+    arq.writelines(s2)
+    arq.close()
+
+
+def tratTFIDFMultNLTK(textos, polaridades, classes, biblioteca1):
+    s1, s2 = naiveBayesV(textos, polaridades, classes, biblioteca1, Type.TFIDF, elevar=True)
+    arq = open(pasta + 'resultados com tratamento TFIDF NLTK multiplicando ao valor da palavra no teste.txt', 'w')
+    arq.writelines(s1)
+    arq.write('\n')
+    arq.writelines(s2)
+    arq.close()
+
+
+def tratTFIDFnormalizadoMultNLTK(textos, polaridades, classes, biblioteca1):
+    s1, s2 = naiveBayesV(textos, polaridades, classes, biblioteca1, Type.TFIDF, True, True)
+    arq = open(pasta + 'resultados com tratamento TFIDF normalizado NLTK multiplicando ao valor da palavra no teste.txt', 'w')
+    arq.writelines(s1)
+    arq.write('\n')
+    arq.writelines(s2)
+    arq.close()
+
+
+def tratBinMultSpacy(textos, polaridades, classes, biblioteca2):
+    s1, s2 = naiveBayesV(textos, polaridades, classes, biblioteca2, Type.BIN, elevar=True)
+    arq = open(pasta + 'resultados com tratamento binário SPACY multiplicando ao valor da palavra no teste.txt', 'w')
+    arq.writelines(s1)
+    arq.write('\n')
+    arq.writelines(s2)
+    arq.close()
+
+
+def tratTFMultSpacy(textos, polaridades, classes, biblioteca2):
+    s1, s2 = naiveBayesV(textos, polaridades, classes, biblioteca2, Type.TF, elevaar=True)
+    arq = open(pasta + 'resultados com tratamento TF SPACY multiplicando ao valor da palavra no teste.txt', 'w')
+    arq.writelines(s1)
+    arq.write('\n')
+    arq.writelines(s2)
+    arq.close()
+
+
+def tratTFNormalizadoMultSpacy(textos, polaridades, classes, biblioteca2):
+    s1, s2 = naiveBayesV(textos, polaridades, classes, biblioteca2, Type.TF, True, True)
+    arq = open(pasta + 'resultados com tratamento TF normalizado SPACY multiplicando ao valor da palavra no teste.txt', 'w')
+    arq.writelines(s1)
+    arq.write('\n')
+    arq.writelines(s2)
+    arq.close()
+
+
+def tratTFIDFMultSpacy(textos, polaridades, classes, biblioteca2):
+    s1, s2 = naiveBayesV(textos, polaridades, classes, biblioteca2, Type.TFIDF, elevar=True)
+    arq = open(pasta + 'resultados com tratamento TFIDF SPACY multiplicando ao valor da palavra no teste.txt', 'w')
+    arq.writelines(s1)
+    arq.write('\n')
+    arq.writelines(s2)
+    arq.close()
+
+
+def tratTFIDFNormalizadoMultSpacy(textos, polaridades, classes, biblioteca2):
+    s1, s2 = naiveBayesV(textos, polaridades, classes, biblioteca2, Type.TFIDF, True, True)
+    arq = open(pasta + 'resultados com tratamento TFIDF normalizado SPACY multiplicando ao valor da palavra no teste.txt', 'w')
+    arq.writelines(s1)
+    arq.write('\n')
+    arq.writelines(s2)
+    arq.close()
+
+
+def tratTFJpretext(classes):
+    s1, s2 = naiveBayesJpretext(classes, 'textosTF')
+    arq = open(pasta + 'resultados com Jpretext TF.txt', 'w')
+    arq.writelines(s1)
+    arq.write('\n')
+    arq.writelines(s2)
+    arq.close()
+
+
+def tratTFIDFJpretext(classes):
+    s1, s2 = naiveBayesJpretext(classes, 'textosTFIDF')
+    arq = open(pasta + 'resultados com Jpretext TFIDF.txt', 'w')
+    arq.writelines(s1)
+    arq.write('\n')
+    arq.writelines(s2)
+    arq.close()
+
+
+def tratTFNaoNormalizadoJpretext(classes):
+    s1, s2 = naiveBayesJpretext(classes, 'textosNaoNormalizadoTF')
+    arq = open(pasta + 'resultados com Jpretext Não Normalizado TF.txt', 'w')
+    arq.writelines(s1)
+    arq.write('\n')
+    arq.writelines(s2)
+    arq.close()
+
+
+def tratTFIDFNaoNormalizadoJpretext(classes):
+    s1, s2 = naiveBayesJpretext(classes, 'textosNaoNormalizadoTFIDF')
+    arq = open(pasta + 'resultados com Jpretext Não Normalizado TFIDF.txt', 'w')
+    arq.writelines(s1)
+    arq.write('\n')
+    arq.writelines(s2)
+    arq.close()
+
+
+def tratTFMultJpretext(classes):
+    s1, s2 = naiveBayesJpretext(classes, 'textosTF', True)
+    arq = open(pasta + 'resultados com Jpretext TF multiplicando ao valor da palavra no teste.txt', 'w')
+    arq.writelines(s1)
+    arq.write('\n')
+    arq.writelines(s2)
+    arq.close()
+
+
+def tratTFIDFMultJpretext(classes):
+    s1, s2 = naiveBayesJpretext(classes, 'textosTFIDF', True)
+    arq = open(pasta + 'resultados com Jpretext TFIDF multiplicando ao valor da palavra no teste.txt', 'w')
+    arq.writelines(s1)
+    arq.write('\n')
+    arq.writelines(s2)
+    arq.close()
+
+
+def tratTFNaoNormalizadoMultJpretext(classes):
+    s1, s2 = naiveBayesJpretext(classes, 'textosNaoNormalizadoTF', True)
+    arq = open(pasta + 'resultados com Jpretext Não Normalizado TF multiplicando ao valor da palavra no teste.txt', 'w')
+    arq.writelines(s1)
+    arq.write('\n')
+    arq.writelines(s2)
+    arq.close()
+
+
+def tratTFIDFNaoNormalizadoMultJpretext(classes):
+    s1, s2 = naiveBayesJpretext(classes, 'textosNaoNormalizadoTFIDF', True)
+    arq = open(pasta + 'resultados com Jpretext Não Normalizado TFIDF multiplicando ao valor da palavra no teste.txt', 'w')
+    arq.writelines(s1)
+    arq.write('\n')
+    arq.writelines(s2)
+    arq.close()

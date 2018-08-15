@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="95e4735c-5c8d-4551-b2af-534057df7f7e" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-645579619">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="12" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.18" value="2" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.25" value="2" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="bat" value="1" />
+          <entry key="byu" value="1" />
+          <entry key="csv" value="3" />
+          <entry key="ini" value="3" />
+          <entry key="py" value="153" />
+          <entry key="sh" value="1" />
+          <entry key="txt" value="64" />
+          <entry key="txt elevando ao valor da palavra no teste" value="1" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSV" value="2" />
+          <entry key="Ini" value="2" />
+          <entry key="PLAIN_TEXT" value="70" />
+          <entry key="Python" value="153" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Python Console" value="19" />
+          <entry key="dummy" value="19" />
+          <entry key="ini" value="15" />
+          <entry key="py" value="11465" />
+          <entry key="txt" value="123" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Ini" value="3" />
+          <entry key="PLAIN_TEXT" value="154" />
+          <entry key="Python" value="11484" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1212105450">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="1" />
+          <entry key="txt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="10" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TratamentosNaiveBayes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1972">
+              <caret line="116" column="77" selection-start-line="116" selection-start-column="77" selection-end-line="116" selection-end-column="77" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <marker date="1534338883019" expanded="true" signature="527:533" ph="..." />
+                <marker date="1534338883019" expanded="true" signature="2297:2309" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>classe</find>
+      <find>neutr</find>
+      <find>glutin</find>
+      <find>tratBinNLTK</find>
+      <find>Elevado</find>
+      <find>elevando</find>
+      <find>False</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/avaliacao.py" />
+        <option value="$PROJECT_DIR$/naiveBayes.py" />
+        <option value="$PROJECT_DIR$/featuresTFIDF.py" />
+        <option value="$PROJECT_DIR$/transformandoXMLemCSV.py" />
+        <option value="$PROJECT_DIR$/naiveBayesBinario.py" />
+        <option value="$PROJECT_DIR$/../CGOpenGL/parametros.txt" />
+        <option value="$PROJECT_DIR$/../CGOpenGL/main.py" />
+        <option value="$PROJECT_DIR$/naiveBayesVector.py" />
+        <option value="$PROJECT_DIR$/lerXmlInputProjeto.py" />
+        <option value="$PROJECT_DIR$/../ProjetoCGOpenGL/testeGL.py" />
+        <option value="$PROJECT_DIR$/jpretext/config.ini" />
+        <option value="$PROJECT_DIR$/com_spacy.py" />
+        <option value="$PROJECT_DIR$/hhhh.py" />
+        <option value="$PROJECT_DIR$/preprocessamento.py" />
+        <option value="$PROJECT_DIR$/naiveBayes.py" />
+        <option value="$PROJECT_DIR$/../Outras coisas/NaiveBayes2.0.py" />
+        <option value="$PROJECT_DIR$/teste.py" />
+        <option value="$PROJECT_DIR$/com_nltk.py" />
+        <option value="$PROJECT_DIR$/avaliacao.py" />
+        <option value="$PROJECT_DIR$/jpretext.py" />
+        <option value="$PROJECT_DIR$/naiveBayesV.py" />
+        <option value="$PROJECT_DIR$/TratamentosNaiveBayes.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="129" />
+    <option name="y" value="74" />
+    <option name="width" value="654" />
+    <option name="height" value="687" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="ProjetoInteligenciaArtificial" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ProjetoIA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjetoIA" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value=":&#9;null&#9;null" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\igor_\PycharmProjects\CGOpenGL" />
+      <recent name="C:\Users\igor_\PycharmProjects\ProjetoInteligenciaArtificial" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\igor_\PycharmProjects\ProjetoInteligenciaArtificial\resultados2tercosTreino" />
+      <recent name="C:\Users\igor_\PycharmProjects\ProjetoInteligenciaArtificial" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="NaiveBayes2.0" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Outras coisas" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Outras coisas" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Outras coisas/NaiveBayes2.0.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="com_spacy" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ProjetoInteligenciaArtificial" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com_spacy.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ProjetoInteligenciaArtificial" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="teste" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ProjetoInteligenciaArtificial" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/teste.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.com_spacy" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.NaiveBayes2.0" />
+      <item itemvalue="Python.teste" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.teste" />
+        <item itemvalue="Python.NaiveBayes2.0" />
+        <item itemvalue="Python.com_spacy" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="95e4735c-5c8d-4551-b2af-534057df7f7e" name="Default Changelist" comment="" />
+      <created>1533907608126</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1533907608126</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1296" height="696" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27106518" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3291815" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49920508" weight="0.31672597" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36476868" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5007949" side_tool="true" weight="0.33274022" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3291815" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3291815" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/ProjetoIA" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Outras coisas/NaiveBayes2.0.py</url>
+          <line>143</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/resultados2tercosTreino/resultados com Jpretext Não Normalizado TFIDF.txt" />
+    <entry file="file://$PROJECT_DIR$/resultados2tercosTreino/resultados com Jpretext TF.txt" />
+    <entry file="file://$PROJECT_DIR$/resultados2tercosTreino/resultados com Jpretext TFIDF.txt" />
+    <entry file="file://$PROJECT_DIR$/resultados2tercosTreino/resultados com Jpretext TFIDF elevando ao valor da palavra no teste.txt" />
+    <entry file="file://$PROJECT_DIR$/resultados2tercosTreino/resultados com Jpretext TF elevando ao valor da palavra no teste.txt" />
+    <entry file="file://$PROJECT_DIR$/resultados2tercosTreino/resultados com tratamento binário NLTK.txt" />
+    <entry file="file://$PROJECT_DIR$/resultados2tercosTreino/resultados com tratamento binário NLTK elevando ao valor da palavra no teste.txt" />
+    <entry file="file://$PROJECT_DIR$/resultados2tercosTreino/resultados com tratamento binário SPACY.txt" />
+    <entry file="file://$PROJECT_DIR$/resultados2tercosTreino/resultados com tratamento binário SPACY elevando ao valor da palavra no teste.txt" />
+    <entry file="file://$PROJECT_DIR$/resultados2tercosTreino/resultados com tratamento TF NLTK.txt" />
+    <entry file="file://$PROJECT_DIR$/resultados com tratamento TF NLTK elevando ao valor da palavra no teste.txt" />
+    <entry file="file://$PROJECT_DIR$/resultados2tercosTreino/resultados com tratamento TF normalizado NLTK.txt" />
+    <entry file="file://$PROJECT_DIR$/resultados2tercosTreino/resultados com tratamento TF normalizado NLTK elevando ao valor da palavra no teste.txt" />
+    <entry file="file://$PROJECT_DIR$/resultados2tercosTreino/resultados com tratamento TF normalizado SPACY.txt" />
+    <entry file="file://$PROJECT_DIR$/resultados2tercosTreino/resultados com tratamento TF normalizado SPACY elevando ao valor da palavra no teste.txt" />
+    <entry file="file://$PROJECT_DIR$/resultados2tercosTreino/resultados com tratamento TFIDF SPACY.txt" />
+    <entry file="file://$PROJECT_DIR$/resultados com tratamento TFIDF SPACY.txt elevando ao valor da palavra no teste" />
+    <entry file="file://$PROJECT_DIR$/resultados2tercosTreino/resultados com tratamento TFIDF normalizado SPACY elevando ao valor da palavra no teste.txt" />
+    <entry file="file://$PROJECT_DIR$/resultados2tercosTreino/resultados com tratamento TFIDF normalizado SPACY.txt" />
+    <entry file="file://$PROJECT_DIR$/resultados2tercosTreino/resultados com tratamento TFIDF normalizado NLTK elevando ao valor da palavra no teste.txt" />
+    <entry file="file://$PROJECT_DIR$/resultados2tercosTreino/resultados com tratamento TFIDF normalizado NLTK.txt" />
+    <entry file="file://$PROJECT_DIR$/resultados2tercosTreino/resultados com tratamento TFIDF NLTK elevando ao valor da palavra no teste.txt" />
+    <entry file="file://$PROJECT_DIR$/resultados2tercosTreino/resultados com tratamento TFIDF NLTK.txt" />
+    <entry file="file://$PROJECT_DIR$/resultados2tercosTreino/resultados com tratamento TF SPACY elevando ao valor da palavra no teste.txt" />
+    <entry file="file://$PROJECT_DIR$/resultados2tercosTreino/resultados com tratamento TF SPACY.txt" />
+    <entry file="file://$PROJECT_DIR$/hhhh.py" />
+    <entry file="file://$PROJECT_DIR$/../Outras coisas/preprocessamentoLarissa.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1121" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Outras coisas/teste.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1396" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Outras coisas/NaiveBayes2.0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teste.py" />
+    <entry file="file://$PROJECT_DIR$/com_spacy.py" />
+    <entry file="file://$PROJECT_DIR$/com_nltk.py" />
+    <entry file="file://$PROJECT_DIR$/outros/resultados com tratamento binário NLTK elevando ao valor da palavra no teste.txt" />
+    <entry file="file://$PROJECT_DIR$/avaliacao.py" />
+    <entry file="file://$PROJECT_DIR$/jpretext.py" />
+    <entry file="file://$PROJECT_DIR$/outros/resultados com Jpretext TF elevando ao valor da palavra no teste.txt" />
+    <entry file="file://$PROJECT_DIR$/outros/resultados com Jpretext Não Normalizado TFIDF elevando ao valor da palavra no teste.txt" />
+    <entry file="file://$PROJECT_DIR$/resultados2tercosTreino/resultados com Jpretext Não Normalizado TF.txt" />
+    <entry file="file://$PROJECT_DIR$/resultados2tercosTreino/resultados com Jpretext Não Normalizado TF elevando ao valor da palavra no teste.txt" />
+    <entry file="file://$PROJECT_DIR$/outros/resultados com Jpretext Não Normalizado TF elevando ao valor da palavra no teste.txt" />
+    <entry file="file://$PROJECT_DIR$/preprocessamento.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naiveBayes.py" />
+    <entry file="file://$PROJECT_DIR$/resultados_80_Treino/resultados com tratamento TFIDF SPACY elevando ao valor da palavra no teste.txt" />
+    <entry file="file://$PROJECT_DIR$/outros/resultados com tratamento TFIDF SPACY elevando ao valor da palavra no teste.txt" />
+    <entry file="file://$PROJECT_DIR$/resultados com tratamento TFIDF SPACY elevando ao valor da palavra no teste.txt" />
+    <entry file="file://$PROJECT_DIR$/resultados2tercosTreino/resultados com tratamento TFIDF SPACY elevando ao valor da palavra no teste.txt" />
+    <entry file="file://$PROJECT_DIR$/naiveBayesV.py" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultados com tratamento binário NLTK.txt" />
+    <entry file="file://$PROJECT_DIR$/TratamentosNaiveBayes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1972">
+          <caret line="116" column="77" selection-start-line="116" selection-start-column="77" selection-end-line="116" selection-end-column="77" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <marker date="1534338883019" expanded="true" signature="527:533" ph="..." />
+            <marker date="1534338883019" expanded="true" signature="2297:2309" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
