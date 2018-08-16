@@ -3,6 +3,7 @@ import lerXmlInputProjeto
 from TratamentosNaiveBayes import *
 from crossNaiveBayes import *
 import timeit
+import graficos as g
 
 
 def main():
@@ -17,7 +18,7 @@ def main():
             os.mkdir(pasta)
 
     # testesHoldout(textos, polaridades, classes, biblioteca1, biblioteca2)
-    testeK_folds(5, textos, polaridades, classes, biblioteca1, biblioteca2)
+    testeK_folds(15, textos, polaridades, classes, biblioteca1, biblioteca2)
 
 
 def testesHoldout(textos, polaridades, classes, biblioteca1, biblioteca2):
@@ -48,23 +49,23 @@ def testesHoldout(textos, polaridades, classes, biblioteca1, biblioteca2):
 
 
 def testeK_folds(k, textos, polaridades, classes, biblioteca1, biblioteca2):
-    # inicio = timeit.default_timer()
-    # arq = crossBinNLTK(k, textos, polaridades, classes, biblioteca1)
-    # fim = timeit.default_timer()
-    # arq.write('\ntempo de execucao: ' + str(fim - inicio))
-    # arq.close()
-    #
-    # inicio = timeit.default_timer()
-    # arq = crossTFnormalizadoJpretext(k, classes)
-    # fim = timeit.default_timer()
-    # arq.write('\ntempo de execucao: ' + str(fim - inicio))
-    # arq.close()
-    #
-    # inicio = timeit.default_timer()
-    # arq = crossBinSpacy(k, textos, polaridades, classes, biblioteca2)
-    # fim = timeit.default_timer()
-    # arq.write('\ntempo de execucao: ' + str(fim - inicio))
-    # arq.close()
+    inicio = timeit.default_timer()
+    arq = crossBinNLTK(k, textos, polaridades, classes, biblioteca1)
+    fim = timeit.default_timer()
+    arq.write('\ntempo de execucao: ' + str(fim - inicio))
+    arq.close()
+
+    inicio = timeit.default_timer()
+    arq = crossTFnormalizadoJpretext(k, classes)
+    fim = timeit.default_timer()
+    arq.write('\ntempo de execucao: ' + str(fim - inicio))
+    arq.close()
+
+    inicio = timeit.default_timer()
+    arq = crossBinSpacy(k, textos, polaridades, classes, biblioteca2)
+    fim = timeit.default_timer()
+    arq.write('\ntempo de execucao: ' + str(fim - inicio))
+    arq.close()
 
     inicio = timeit.default_timer()
     arq = crossSemTratamento(k, textos, polaridades, classes)
@@ -72,7 +73,9 @@ def testeK_folds(k, textos, polaridades, classes, biblioteca1, biblioteca2):
     arq.write('\ntempo de execucao: ' + str(fim - inicio))
     arq.close()
 
-
-main()
+# g.gerarGraficos(retornaAcuracias())
+# g.geraGraficoCross(crossAcuracias())
+# g.graficoBarra()
+# main()
 
 

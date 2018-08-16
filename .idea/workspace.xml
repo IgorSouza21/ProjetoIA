@@ -72,38 +72,58 @@
         <counts>
           <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="4" />
+          <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="31" />
-          <entry key="txt" value="22" />
+          <entry key="md" value="1" />
+          <entry key="py" value="36" />
+          <entry key="txt" value="31" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="22" />
-          <entry key="Python" value="31" />
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="31" />
+          <entry key="Python" value="36" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1929" />
+          <entry key="md" value="511" />
+          <entry key="py" value="4116" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1929" />
+          <entry key="Markdown" value="511" />
+          <entry key="Python" value="4116" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+                <marker date="1534397792817" expanded="true" signature="671:677" ph="..." />
+                <marker date="1534397792817" expanded="true" signature="2425:2426" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -150,9 +170,11 @@
         <option value="$PROJECT_DIR$/naiveBayesV.py" />
         <option value="$PROJECT_DIR$/preprocessamento.py" />
         <option value="$PROJECT_DIR$/crossNaiveBayes.py" />
+        <option value="$PROJECT_DIR$/naiveBayes.py" />
+        <option value="$PROJECT_DIR$/naiveBayes.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/graficos.py" />
         <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/naiveBayes.py" />
-        <option value="$PROJECT_DIR$/naiveBayes.py" />
       </list>
     </option>
   </component>
@@ -185,11 +207,6 @@
             <path>
               <item name="ProjetoIA" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProjetoIA" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjetoIA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjetoIA" type="462c0819:PsiDirectoryNode" />
-              <item name="resultados" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -338,14 +355,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="696" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="696" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27106518" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3290938" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291815" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49841017" weight="0.31672597" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49841017" visible="true" weight="0.31672597" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.42882562" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -386,12 +404,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resultados com tratamento TFIDF SPACY.txt elevando ao valor da palavra no teste" />
-    <entry file="file://$PROJECT_DIR$/resultados2tercosTreino/resultados com tratamento TFIDF normalizado SPACY elevando ao valor da palavra no teste.txt" />
-    <entry file="file://$PROJECT_DIR$/resultados2tercosTreino/resultados com tratamento TFIDF normalizado SPACY.txt" />
-    <entry file="file://$PROJECT_DIR$/resultados2tercosTreino/resultados com tratamento TFIDF normalizado NLTK elevando ao valor da palavra no teste.txt" />
-    <entry file="file://$PROJECT_DIR$/resultados2tercosTreino/resultados com tratamento TFIDF normalizado NLTK.txt" />
-    <entry file="file://$PROJECT_DIR$/resultados2tercosTreino/resultados com tratamento TFIDF NLTK elevando ao valor da palavra no teste.txt" />
     <entry file="file://$PROJECT_DIR$/resultados2tercosTreino/resultados com tratamento TFIDF NLTK.txt" />
     <entry file="file://$PROJECT_DIR$/resultados2tercosTreino/resultados com tratamento TF SPACY elevando ao valor da palavra no teste.txt" />
     <entry file="file://$PROJECT_DIR$/hhhh.py" />
@@ -428,42 +440,16 @@
     <entry file="file://$PROJECT_DIR$/outros/resultados com tratamento TFIDF SPACY elevando ao valor da palavra no teste.txt" />
     <entry file="file://$PROJECT_DIR$/resultados com tratamento TFIDF SPACY elevando ao valor da palavra no teste.txt" />
     <entry file="file://$PROJECT_DIR$/resultados2tercosTreino/resultados com tratamento TFIDF SPACY elevando ao valor da palavra no teste.txt" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resultados com tratamento binário NLTK.txt" />
-    <entry file="file://$PROJECT_DIR$/resultados2tercosTreino/resultados com tratamento binário SPACY elevando ao valor da palavra no teste.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resultados2tercosTreino/resultados com tratamento binário SPACY.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resultados2tercosTreino/resultados com tratamento TF NLTK  elevando ao valor da palavra no teste.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resultados2tercosTreino/resultados com tratamento TF normalizado NLTK.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resultados2tercosTreino/resultados com tratamento TF normalizado NLTK elevando ao valor da palavra no teste.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resultados2tercosTreino/resultados com tratamento TF SPACY.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resultados2tercosTreino/resultados com tratamento TF NLTK.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resultados2tercosTreino/resultados com tratamento binário NLTK.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resultados2tercosTreino/resultados com tratamento binário NLTK elevando ao valor da palavra no teste.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/resultados2tercosTreino/resultados com tratamento binário SPACY elevando ao valor da palavra no teste.txt" />
+    <entry file="file://$PROJECT_DIR$/resultados2tercosTreino/resultados com tratamento binário SPACY.txt" />
+    <entry file="file://$PROJECT_DIR$/resultados2tercosTreino/resultados com tratamento TF NLTK  elevando ao valor da palavra no teste.txt" />
+    <entry file="file://$PROJECT_DIR$/resultados2tercosTreino/resultados com tratamento TF normalizado NLTK.txt" />
+    <entry file="file://$PROJECT_DIR$/resultados2tercosTreino/resultados com tratamento TF normalizado NLTK elevando ao valor da palavra no teste.txt" />
+    <entry file="file://$PROJECT_DIR$/resultados2tercosTreino/resultados com tratamento TF SPACY.txt" />
+    <entry file="file://$PROJECT_DIR$/resultados2tercosTreino/resultados com tratamento TF NLTK.txt" />
+    <entry file="file://$PROJECT_DIR$/resultados2tercosTreino/resultados com tratamento binário NLTK.txt" />
+    <entry file="file://$PROJECT_DIR$/resultados2tercosTreino/resultados com tratamento binário NLTK elevando ao valor da palavra no teste.txt" />
     <entry file="file://$PROJECT_DIR$/inputProjeto.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="79">
@@ -482,10 +468,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="27" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <marker date="1534351564461" expanded="true" signature="620:2017" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -527,6 +509,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/naiveBayes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-344">
+          <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crossNaiveBayes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="238">
+            <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultados/5-folds sem tratamento.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/resultados/5-folds com tratamento binário Spacy.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -537,42 +546,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resultados/5-folds com Jpretext TF.txt">
+    <entry file="file://$PROJECT_DIR$/resultados/resultados com tratamento binário SPACY.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/resultados/5-folds sem tratamento.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/naiveBayes.py">
+    <entry file="file://$PROJECT_DIR$/resultados/resultados com tratamento TF NLTK.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-344">
-          <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crossNaiveBayes.py">
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/matplotlib/category.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-            <marker date="1534353916100" expanded="true" signature="1082:1279" ph="..." />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/matplotlib/axis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="1525" selection-start-line="1525" selection-end-line="1525" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/matplotlib/axes/_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="382" selection-start-line="382" selection-end-line="382" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultados/5-folds com Jpretext TF.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graficos.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        <state relative-caret-position="217">
+          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <marker date="1534355364090" expanded="true" signature="649:655" ph="..." />
-            <marker date="1534355364090" expanded="true" signature="1612:2446" ph="..." />
-            <marker date="1534355364090" expanded="true" signature="2443:2446" ph="..." />
+            <marker date="1534397792817" expanded="true" signature="671:677" ph="..." />
+            <marker date="1534397792817" expanded="true" signature="2425:2426" ph="..." />
           </folding>
         </state>
       </provider>
